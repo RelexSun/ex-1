@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+  /* ### Primary */
+
+  --Orange: hsl(26, 100%, 55%);
+  --Pale-orange: hsl(25, 100%, 94%);
+
+  /* ### Neutral */
+
+  --Very-dark-blue: hsl(220, 13%, 13%);
+  --Dark-grayish-blue: hsl(219, 9%, 45%);
+  --Grayish-blue: hsl(220, 14%, 75%);
+  --Light-grayish-blue: hsl(223, 64%, 98%);
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+}
+
+/* navigation bar here */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* navigation-menu */
+
+header {
+  background-color: var(--Pale-orange);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s ease-in-out;
+}
+
+a:hover {
+  opacity: 0.5;`
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5em 10em;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.nav-lists {
+  display: flex;
+  margin-left: 5rem;
+}
+
+.nav-item {
+  margin: 1rem;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  margin-right: 3rem;
+}
+
+.avatar img {
+  width: 3em;
+}
+
+/* .divide-line {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.divide-line div {
+    width: 80%;
+    border: 1px solid rgb(212, 212, 212);
+} */
+
+/* main-section */
+
+.main {
+  display: flex;
+  justify-content: center;
+  border: solid;
+  width: 50%;
+  margin: 64px auto;
+  padding: 64px;
+  height: 100%;
+}
+
+.upper-img img {
+  max-width: 35%;
+  border-radius: 35px;
+}
+.lower-img {
+  max-width: 35%;
+  display: flex;
+  gap: 1.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.lower-img img {
+  border-radius: 15px;
+}
+
+.right-col,
+.left-col {
+  /* width: 30vw; */
+}
